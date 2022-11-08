@@ -25,11 +25,7 @@ class Student {
     print("your name ${this.name}\nyour age : ${this.age}");
   }
 
-  // Getters
-
-  // Setters
 }
 
-// Person class
 
-// Inheritence
+
