@@ -1,3 +1,4 @@
+import 'package:app/abstraction_class.dart';
 import 'package:app/classes.dart';
 import 'package:app/encapsulate_class.dart';
 import 'package:app/inheritance_class.dart';
@@ -39,4 +40,17 @@ void main() {
 
   print(
       "teacher name : ${teacher1.name}\nteacher age : ${teacher1.age}\nteacher salary : ${teacher1.salary}\nteacher department : ${teacher1.department} ");
+
+  print("********************* Inheritence with constructor");
+
+  Driver driver = Driver("tars", "g-class", 2022);
+  print(driver);
+
+  print("********************* Abstract Class");
+
+  Cat cat = Cat("bimo");
+
+  // call class methods
+
+  cat.move();
 }

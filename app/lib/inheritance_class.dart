@@ -33,3 +33,22 @@ class Teacher extends People {
   // get department
   String get department => _department;
 }
+
+// Cars
+class Car {
+  late String model;
+  late int year;
+
+  // constructor
+  Car(this.model, this.year);
+}
+
+class Driver extends Car {
+  late String driverName;
+
+  // override constructor
+  Driver(this.driverName, String model, int year) : super(model, year);
+
+  @override
+  String toString() => "driver name $driverName";
+}
